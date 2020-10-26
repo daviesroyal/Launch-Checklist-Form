@@ -15,7 +15,7 @@ window.addEventListener("load", function(){
    let missionTarget = document.getElementById("missionTarget");
 
    form.addEventListener("submit", function(event){
-      if (document.querySelector("input[type=text]").value === "") {
+      if (document.querySelector("input").value === "") {
          window.alert("All fields are required!");
          event.preventDefault();
       } 
